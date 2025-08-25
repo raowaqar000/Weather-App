@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body class="p-4">
+    <main class="min-h-screen flex flex-col items-center justify-center">
+      <div class="max-w-md w-full mb-8 flex items-center gap-2">
+        <input
+          placeholder="Search..."
+          type="search"
+          class="outline-none p-2 border-2 border-white ring-2 w-full ring-zinc-200 rounded-xl text-xl"
+        />
+        <button
+        id="btn"
+          class="outline-none p-2 shrink-0 rounded-xl text-xl bg-black"
+        ><i class="ri-search-2-line text-white"></i></button>
+      </div>
+      <div id="main" class="w-full mx-auto"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
