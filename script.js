@@ -55,7 +55,7 @@ const fetchWeather = async (city) => {
         class="mx-auto flex flex-col items-center justify-center bg-zinc-100 max-w-md w-full p-4 rounded-xl shadow-xl"
       >
         <div id="head" class="flex flex-col items-center justify-center">
-          <img src="./images/${jsonData.weather[0].main}.png" alt="" class="size-40" />
+          <img src="/Weather-App/images/${jsonData.weather[0].main}.png" alt="" class="size-40" />
           <h1 class="text-5xl font-bold mt-4">${jsonData.main.temp}&deg;C</h1>
           <h4 class="text-xl font-semibold mt-1">${city}</h4>
         </div>
